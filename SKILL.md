@@ -6,6 +6,11 @@ name: dy-trend
 description: 抖音热点趋势数据源（只读）：关键词搜索、博主作品、作品详情、评论、热榜。触发：抖音搜索、热搜、评论、需求挖掘、痛点、作品详情、博主作品、对标账号、播放量、选题、舆情、竞品。小红书、快手、B站、微博、公众号不要用本技能。sec_uid、aweme_id、douyin search、douyin hot、douyin detail、douyin comments。
 license: MIT
 version: 1.5.0
+display_name: "抖音热点追踪｜实时热榜·爆点监控·趋势分析·选题参考"
+display_name_en: "Douyin Trend Tracker"
+description_zh: "抖音热点趋势数据源（只读）：实时热榜（约 50 条，含排名与热度值）、关键词搜索视频与爆款选题、博主作品列表、单条作品详情、视频评论舆情；支持综合/最多点赞/最新排序与时间（1 天/7 天/半年）、时长、内容类型（视频/图文）多维度筛选，全部以结构化 JSON 输出供 AI 直接分析。不登录、不发布、不点赞、不评论、不关注。按量单次最多 1 万条；包月视频/用户搜索与作品最多 30、评论最多 50。适用于热点趋势判断、爆点监控、蹭热点选题、内容节奏规划、竞品监控与评论舆情。"
+description_en: "Read-only Douyin hot-trend data source: real-time hot list (~50 entries with rank and heat score), keyword video search for trending topics, creator video lists, single-video details, and comment sentiment mining. Supports relevance/most-liked/latest sorting plus multi-dimensional filters for time window (1 day / 7 days / 6 months), duration, and content type (video / image-text). All results are structured JSON ready for direct AI analysis. No login, publishing, liking, commenting, or following. Pay-per-use runs cap at 10,000 items; monthly plans cap video/user search and creator videos at 30 and comments at 50. Ideal for trend judgment, breakout monitoring, riding hot topics, content cadence planning, competitor tracking, and comment mining."
+author: "新郑市怪奇信息技术工作室"
 metadata:
   openclaw:
     emoji: "🎬"
